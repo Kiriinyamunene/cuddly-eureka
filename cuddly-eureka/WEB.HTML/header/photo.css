@@ -1,0 +1,33 @@
+.photo{
+    width:100%;
+}
+.photo-row{
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.photo-comment{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+        .photo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+@media (max-width: 600px){
+    .photo-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 601px) and (max-width: 999px){
+    .photo-grid{
+    grid-template-columns:  1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1000px){
+    .photo-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
